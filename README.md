@@ -1,5 +1,9 @@
 # fm-huddle-landing-page
 
+## Live Preview
+
+Live Preview: [https://nitearie.github.io/fm-huddle-landing-page/](https://nitearie.github.io/fm-huddle-landing-page/)
+
 ## Design Preview
 
 > Desktop
