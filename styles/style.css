@@ -108,3 +108,65 @@ body {
 .attribution a {
     color: hsl(300, 69%, 71%);
 }
+
+@media only screen and (max-width: 1350px) {
+
+    .l-container {
+        background-size: cover;
+    }
+
+    .header {
+        max-width: 700px;
+        margin: auto auto;
+    }
+
+    .welcome {
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .welcome__mockup {
+        max-width: 709px;
+        height: auto;
+    }
+
+    .welcome__content {
+        text-align: center;
+    }
+    
+    .welcome__title {
+        max-width: 550px;
+        width: 100%;
+    }
+
+    .welcome__desc {
+        max-width: 550px;
+        width: 100%;
+    }
+
+    .social__icons {
+        margin-right: 0;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .l-container {
+        background-image: url("../images/bg-mobile.svg");
+        background-size: contain;
+    }
+
+    .welcome__content {
+        padding: 30px 0;
+    }
+
+    .welcome__title {
+        font-size: 28px;
+    }
+
+    .welcome__desc {
+        font-size: 16px;
+    }
+}
