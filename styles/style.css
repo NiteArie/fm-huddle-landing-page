@@ -12,8 +12,7 @@ body {
     background-color: hsl(257, 40%, 49%);
     background-image: url("../images/bg-desktop.svg");
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    padding: 40px 70px;
+    padding: 30px 70px 19px;
 }
 
 .header {
@@ -99,4 +98,13 @@ body {
 
 .social__icon {
     width: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(300, 69%, 71%);
 }
